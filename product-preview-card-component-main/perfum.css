@@ -38,16 +38,19 @@ body{
     text-transform: uppercase;
     align-self: flex-start;
     letter-spacing: 0.5rem;
+    color: hsl(228, 12%, 48%);
 }
 
 .product{
     font-family: Fraunces;
     font-size: 30px;
+    color:hsl(212, 21%, 14%);
 }
 
 .description{
     font-family: Montserrat;
     font-size: 14px;
+    color:hsl(228, 12%, 48%);
 }
 
 .prices{
@@ -67,6 +70,7 @@ body{
     text-decoration: line-through;
     align-self: center;
     font-weight: 400;
+    color:hsl(228, 12%, 48%);
 }
 
 .button{
@@ -115,4 +119,9 @@ body{
     }
 
     
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
 }
