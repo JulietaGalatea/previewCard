@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.category{
+    font-size: 14px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    align-self: flex-start;
+    letter-spacing: 0.5rem;
+}
+
+.product{
+    font-family: Fraunces;
+    font-size: 30px;
+}
+
+.description{
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.prices{
+    display: flex;
+}
+
+.discountPrice{
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.originalPrice{
+    font-family: Montserrat;
+    font-size: 14px;
+    text-decoration: line-through;
+    align-self: center;
+    font-weight: 400;
+}
+
+.button{
+    display: flex;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: hsl(158, 36%, 25%);
+}
+
+.material-symbols-outlined.md18{
+    color:  hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin: 0.5rem;
+}
+
+.buying{
+    display: block;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+
+@media (max-width: 1200px) {
+    .card{
+        
+        width: 340px;
+    }
+
+}
+
+@media (min-width: 1201px) {
+    .card{
+        max-width: 42%;
+        flex-wrap: nowrap;
+    }
+
+    
+}
